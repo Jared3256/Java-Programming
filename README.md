@@ -1,7 +1,7 @@
 # Java-Programming
 ##################################################################################################
-# This programe takes an input froma user with the assumption that the user will not enter an invalid digit.
-# The input is then subjected to a looping protocol with condition that check and manipulate the variables declared.
+# This program takes an input from a user with the assumption that the user will not enter an invalid digit.
+# The input is then subjected to a looping protocol with conditions that check and manipulate the variables declared.
 # For this programe , the following variables are used 
 #############################################################################################
 # time - to store the value that the user gives,
