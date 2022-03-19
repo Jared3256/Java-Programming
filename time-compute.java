@@ -2,7 +2,7 @@ package hello;
 
 import java.util.*;
 
-public class HelloP
+public class Hello
 {
 	private Scanner in = new Scanner (System.in);
 	private int time;
