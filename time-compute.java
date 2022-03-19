@@ -4,16 +4,13 @@ import java.util.*;
 
 public class Hello
 {
-	private Scanner in = new Scanner (System.in);
-	private int time;
-
-	private int sec , min, hr, day , mon , yr;
-	
 	public  static void main(String [] args)
 	{
-		sec = min = hr = day= mon = yr = 0;
-		System.out.println("Enter time in Seconds : ");
-		time =  in.nextInt();
+            Scanner in = new Scanner (System.in);
+            int sec , min, hr, day , mon , yr ,time;
+            sec = min = hr = day= mon = yr = 0;
+	    System.out.println("Enter time in Seconds : ");
+            time =  in.nextInt();
 
 		for(int i = 0 ; i < time; i++)
 		{
@@ -37,6 +34,7 @@ public class Hello
 							if ( mon ==12)
 							{
 								yr ++;
+                                                                mon = 0;
 							}
 						}
 					}
